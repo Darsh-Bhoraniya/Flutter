@@ -35,8 +35,34 @@ class Login extends StatelessWidget {
                 ),
 
                 Expanded(
-                  child: Container(
-                    color: Colors.grey,
+                  child: Column(
+                    children: [
+                      Expanded(
+                        child: Row(
+                          children: [
+                            Expanded(
+                              child: Column(
+                                children: [
+                                  Expanded(child: Container(color: Colors.greenAccent,),),
+                                  Expanded(child: Container(color: Colors.black87,),),
+                                ],
+                              ),
+                            ),
+                            Expanded(
+                              child: Column(
+                                children: [
+                                  Expanded(child: Container(color: Colors.redAccent,),),
+                                  Expanded(child: Container(color: Colors.purple,),),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      Expanded(
+                        child: Container(color: Colors.brown),
+                      )
+                    ],
                   ),
                 ),
               ],
@@ -108,11 +134,11 @@ class Login extends StatelessWidget {
                     color: Colors.amberAccent,
                   ),
                 ),
-                Expanded(
-                  child: Container(
-                    color: Colors.lightGreen,
-                  ),
-                ),
+                // Expanded(
+                //   child: Container(
+                //     color: Colors.lightGreen,
+                //   ),
+                // ),
               ],
             ),
           ),
@@ -124,47 +150,57 @@ class Login extends StatelessWidget {
                   child: Column(
                     children: [
                       Expanded(
-                        child: Container(color: Colors.orange),
-                      ),
-                      Expanded(
-                        child: Container(color: Colors.redAccent),
-                      )
-                    ],
-                  ),
-                ),
-                Expanded(
-                  child: Column(
-                    children: [
-                      Expanded(
                         child: Row(
                           children: [
+                            // Expanded(
+                            //   child: Column(
+                            //     children: [
+                            //       Expanded(
+                            //         child: Container(
+                            //           color: Colors.yellowAccent,
+                            //         ),
+                            //       ),
+                            //       Expanded(
+                            //         child: Container(
+                            //           color: Colors.teal,
+                            //         ),
+                            //       ),
+                            //     ],
+                            //   ),
+                            // ),
                             Expanded(
                               child: Column(
                                 children: [
                                   Expanded(
-                                    child: Container(
-                                      color: Colors.yellowAccent,
+                                    child: Row(
+                                      children: [
+                                        Expanded(
+                                          child: Container(
+                                            color: Colors.indigoAccent,
+                                          ),
+                                        ),
+                                        Expanded(
+                                          child: Container(
+                                            color: Colors.red,
+                                          ),
+                                        )
+                                      ],
                                     ),
                                   ),
                                   Expanded(
-                                    child: Container(
-                                      color: Colors.teal,
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                            Expanded(
-                              child: Column(
-                                children: [
-                                  Expanded(
-                                    child: Container(
-                                      color: Colors.lightGreen,
-                                    ),
-                                  ),
-                                  Expanded(
-                                    child: Container(
-                                      color: Colors.redAccent,
+                                    child: Row(
+                                      children: [
+                                        Expanded(
+                                          child: Container(
+                                            color: Colors.black,
+                                          ),
+                                        ),
+                                        Expanded(
+                                          child: Container(
+                                            color: Colors.yellowAccent,
+                                          ),
+                                        )
+                                      ],
                                     ),
                                   ),
                                 ],
@@ -190,9 +226,6 @@ class Login extends StatelessWidget {
                       Expanded(
                         child: Container(color: Colors.blue),
                       ),
-                      Expanded(
-                        child: Container(color: Colors.tealAccent),
-                      )
                     ],
                   ),
                 ),
@@ -200,7 +233,53 @@ class Login extends StatelessWidget {
                   child: Column(
                     children: [
                       Expanded(
-                        child: Container(color: Colors.black87),
+                        child: Row(
+                          children: [
+                            // Expanded(
+                            //   child: Container(
+                            //     color: Colors.lightGreen,
+                            //   ),
+                            // ),
+                            Expanded(
+                              child: Row(
+                                children: [
+                                  Expanded(
+                                    child: Column(
+                                      children: [
+                                        Expanded(
+                                          child: Container(
+                                            color: Colors.orange,
+                                          ),
+                                        ),
+                                        Expanded(
+                                          child: Container(
+                                            color: Colors.purple,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                  Expanded(
+                                    child: Column(
+                                      children: [
+                                        Expanded(
+                                          child: Container(
+                                            color: Colors.greenAccent,
+                                          ),
+                                        ),
+                                        Expanded(
+                                          child: Container(
+                                            color: Colors.black54,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
                       ),
                       Expanded(
                         child: Column(
@@ -209,29 +288,19 @@ class Login extends StatelessWidget {
                               child: Row(
                                 children: [
                                   Expanded(
-                                    child: Container(
-                                      color: Colors.redAccent,
-                                    ),
-                                  ),
-                                  Expanded(
-                                    child: Container(
-                                      color: Colors.deepOrangeAccent,
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                            Expanded(
-                              child: Row(
-                                children: [
-                                  Expanded(
-                                    child: Container(
-                                      color: Colors.amber,
-                                    ),
-                                  ),
-                                  Expanded(
-                                    child: Container(
-                                      color: Colors.lime,
+                                    child: Row(
+                                      children: [
+                                        Expanded(
+                                          child: Container(
+                                            color: Colors.amber,
+                                          ),
+                                        ),
+                                        Expanded(
+                                          child: Container(
+                                            color: Colors.blueAccent,
+                                          ),
+                                        )
+                                      ],
                                     ),
                                   ),
                                 ],
